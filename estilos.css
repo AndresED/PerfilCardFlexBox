@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #53d453;
+}
+section{
+  max-width: 600px;
+  padding: 1rem;
+  margin: 0 auto;
+  border:1px solid red;
+  border-radius: 5px ;
+  background: rgba(255,255,255,0.41);
+  display: flex;
+}
+img{
+  margin-right: 1rem;
+
+}
+@media (max-width:550px) {
+  section{
+    flex-direction: column;
+  }
+  img{
+    margin-right: 0;
+    flex: 0 1 90px;
+  }
+}
